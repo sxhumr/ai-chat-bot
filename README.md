@@ -61,23 +61,7 @@ Type `clear` to reset the conversation, `quit` to exit.
 
 ---
 
-## Project Structure
-ai-chat-bot/
-├── chatbot/
-│   ├── client.py       # Groq API wrapper
-│   ├── memory.py       # Conversation history manager
-│   └── logger.py       # Session log writer
-├── web/
-│   ├── app.py          # Flask web server (in progress)
-│   └── templates/
-│       └── index.html  # Browser chat UI (in progress)
-├── logs/               # Auto-generated session logs
-├── main.py             # CLI entry point
-├── .env.example        # API key template
-├── requirements.txt
-└── README.md
 
----
 
 ## Roadmap
 
